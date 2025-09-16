@@ -9,22 +9,22 @@
 </div>
 <form asp-action="Index" method="post" class="container">
     <div class="row">
-        <label class="col-4" asp-for="MonthlyInvestment">Monthly Investment:</label>
+        <label class="col-4 col-form-label" asp-for="MonthlyInvestment">Monthly Investment:</label>
         <input class="col-4" asp-for="MonthlyInvestment"/>
         <div class="col-4">
             <span asp-validation-for="MonthlyInvestment"></span>
         </div>
     </div>
     <div class="row">
-        <label class="col-4" asp-for="YearlyInterestRate">Yearly Interest Rate:</label>
+        <label class="col-4 col-form-label" asp-for="YearlyInterestRate">Yearly Interest Rate:</label>
         <input class="col-4" asp-for="YearlyInterestRate"/>
         <div class="col-4">
             <span asp-validation-for="YearlyInterestRate"></span>
         </div>
     </div>
     <div class="row">
-        <label class="col-4 "asp-for="Years">Number of Years:</label>
-        <input class="col-4 "asp-for="Years"/>
+        <label class="col-4 col-form-label" asp-for="Years">Number of Years:</label>
+        <input class="col-4" asp-for="Years"/>
         <div class="col-4">
             <span asp-validation-for="Years"></span>
         </div>
