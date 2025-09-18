@@ -28,7 +28,7 @@ public class HomeController : Controller
     }
   
     [HttpGet]
-    public IActionResult About()
+    public IActionResult TestPage()
     {
         return View();
     }
